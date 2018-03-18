@@ -1,0 +1,88 @@
+row1{
+    width:100px
+}
+
+.col-head{
+    border:1px;
+    column-fill: auto;
+    border-style: solid;
+    border-color: rgb(228, 223, 223);
+}
+
+.col-head-right{
+    column-fill: auto;
+    border:1px;
+    border-style: solid;
+    border-color: rgb(228, 223, 223);
+}
+
+.content-right{
+    border:1px solid black;
+    margin: 0px;
+    padding: 0px;
+    column-fill: auto;
+    border-color: rgb(228, 223, 223);
+}
+
+.content-left-first{
+    border:1px solid black;
+    margin: 0px;
+    padding: 0px;
+    column-fill: auto;
+    border-style: solid;
+    border-color: rgb(228, 223, 223);
+}
+
+.left-lower-pane{
+    border-color: rgb(228, 223, 223);
+}
+
+p.text1 {
+    text-align: left;
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+p.text2 {
+    text-align: right;
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+.top-left1{
+    column-fill: auto;
+}
+.test:after {
+    content: '\2807';
+    font-size: 25px;
+}
+
+.test2:after {
+    content: '\2807';
+    font-size: 25px;
+}
+
+.testli{
+    float: right;
+}
+
+.navfont{
+    font-size:10px;
+}
+
+button24{
+    width: 211px;
+    height: 66px;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+ 
+    background: url('../img/button.png') no-repeat;
+    border-style: light;
+    border-color :red;
+    cursor: pointer;
+ }

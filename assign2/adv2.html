@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="adv2.css">
+  <title>WhatsApp</title>
+</head>
+
+<body>
+  <div class="container-fluid rty">
+    <div class="row">
+      <div class="col-4 col-head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand navfont" href="#">
+              <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse top-left1" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown" style="position:absolute;right:2px">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <div class ="test" style="text-align : right"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col-8 col-head-right">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="https://getbootstrap.com/docs/4.0/components/scrollspy/">
+              <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown testli" style="position:absolute;right:2px; height: 3px">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <div class ="test" style="text-align : right"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 content-left-first">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Start new chat">
+          </div>
+        </form>
+
+        <div class="list-group left-lower-pane ex3" id="list-tab" role="tablist">
+
+          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab"
+            aria-controls="profile">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>time</td>
+                </table>
+              </div>
+          </a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab"
+            aria-controls="messages">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>time</td>
+                </table>
+              </div>
+          </a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab"
+            aria-controls="settings">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>time</td>
+                </table>
+              </div>
+          </a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab"
+            aria-controls="settings">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>
+                   <p>time</p><br> <p><img src="3.png" alt="person" class="rounded-circle float-left" width="50px"></p>
+                  </td>
+                </table>
+              </div>
+          </a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab"
+            aria-controls="settings">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>time</td>
+                </table>
+              </div>
+          </a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab"
+            aria-controls="settings">
+            <div class="table-responsive">
+                <table class="table">
+                  <tr></tr>
+                  <td>
+                    <img src="MVC.png" alt="person" class="rounded-circle float-left" width="50px">
+                  </td>
+                  <td>
+                    <p>person's nam
+                      <br> chat</p>
+                  </td>
+                  <td>time</td>
+                </table>
+              </div>
+          </a>
+          
+        </div>
+      </div>
+      <div class="col-8 content-right">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <p class="text1">This is some text in a paragraph.</p>
+              <br>
+              <p class="text2" align="right">This is some text in a paragraph.</p>
+              <br>
+              <p align="right">This is some text in a paragraph.</p>
+              <br>
+          </div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <button class="button24">
+                <p>name</p> </br>
+                <p>some text</p></button></p>
+              
+              <button class="button24">some text</button>
+          </div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="adv2.js"></script>
+</body>
+
+</html>
